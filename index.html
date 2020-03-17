@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon"> 
+	<link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+
+	<title>Monturas World Of Warcraft</title>
+</head>
+<body>
+
+<header>
+	<figure><img id= "img" src="img/WoW.png"></figure>
+	<h1>Monturas World of Warcraft</h1>
+	<audio src="audio/ventor.mp3" type="audio/mp3" controls="controls" autoplay="autoplay" loop="loop"></audio> 
+	<nav>
+		<table>
+			<tr>
+				<td><a href="burningCrusade.html" id="a"><h4>Burning Crusade</h4></a></td>
+				<td><a href="lichKing.html" id="b"><h4>Wrath of the Lich King</h4></a></td>
+				<td><a href="cataclysm.html" id="c"><h4>Cataclysm</h4></a></td>
+				<td><a href="mistsPandaria.html" id="d"><h4>Mists of Pandaria</h4></a></td>
+				<td><a href="#" id="e"><h4>Faccion</h4></a></td>
+			</tr>
+		</table>		
+	</nav>
+</header>
+
+<section>
+	<div id="part">
+		<div id="slider">
+			<div class="element">
+			<a href=""><img src="img/ali.jpg"></a>			
+			</div>
+
+			<div class="element">
+			<a href=""><img src="img/onyxi.jpg"></a>			
+			</div>
+
+			<div class="element">
+			<a href=""><img src="img/nimb.jpg"></a>				
+			</div>			
+
+			<div class="element">
+			<a href=""><img src="img/vermis.jpg"></a>			
+			</div>
+
+			<div class="element">
+			<a href=""><img src="img/oeste.jpg"></a>			
+			</div>			
+
+			<div class="element">
+			<a href=""><img src="img/manca.png"></a>			
+			</div>
+
+			<div class="element">
+			<a href="burningCrusade.html"><img src="img/cenizasf.jpg"></a>			
+			</div>
+		</div>	
+
+		<div id="s">
+			<h3>¿ Que es una montura en World of Warcraft ?</h3>
+			<p><strong>World of Warcraft</strong> es un juego multijugador online el cual consiste en crear un  <br> personaje subirlo de nivel, conseguir armadura, subir profesion, conseguir monturas <br> y muchas cosas mas. <br>
+			Una montura en <strong>World of Warcraft</strong> es uno de los medios de transporte en este <br> videojuego, hay de tipo volador y terrestre. Aca encontraras la guia de como <br> conseguirlas de una manera sencilla y entretenida.</p>
+		</div>
+	</div>	
+</section>
+
+<footer>
+	<p id="p1">Server: Firestorm</p>
+	<p id="p2">Anonymatus</p>
+</footer>
+
+	<!--Codigo javaScript para pasar las imagenes-->
+
+	<script src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js' type="text/javascript"></script>
+
+	<script type="text/javascript">//<![CDATA][
+		$(function() {
+			$('#slider div:gt(0)').hide();
+			setInterval(function() {
+				$('#slider div:first-child').fadeOut(0)
+					.next('div').fadeIn(1000)
+					.end().appendTo('#slider');}, 5000);
+			});
+		//]]></script>	
+
+
+</body>
+</html>

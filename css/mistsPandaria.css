@@ -1,0 +1,172 @@
+/*Burning Crusade*/
+
+body {	
+	width: 100%;
+	height: 100%;
+ 	background-color: #000000; 
+ 	border: 0%;
+ 	margin: 0%; 	
+}
+
+header {
+	width: 100%;
+	height: 200px;
+	background-color: green;		
+	margin-top: -1.5%;
+	margin: 0%
+	border: 0%;
+}
+
+header figure img#img {
+	float: left;	
+	width: 28%;
+	height: 15%;
+	border-color: black;	
+	margin-right: 4%;
+}
+
+header h1 {
+	text-align: center;
+	font-family: 'Cinzel', serif;
+	font-size: 300%;
+	padding: 30px 0px 0px 0px;
+	color: #0C1D25;	
+}
+
+header a {	
+	float: left;
+	color: #000000;
+	padding: 0% 0% 0% 10%;
+	border: 0%;
+	margin: 0%;	
+	text-decoration: none;
+}
+
+header audio {
+	float: right;
+	width: 11%;
+	height: 5%;
+	padding: 2% 3% 1% 0%;
+}
+
+
+section#sectionA {	
+	background-color: none;
+	width: 40%;
+	height: 285px;	
+	margin: 1% 30% 0% 30%;
+}
+
+section#sectionA div#divA div.element img.bug {
+	width: 100%;
+	height: 360px;
+}
+
+section#sectionA div#divA {
+	background-color: none;
+	width: 100%;
+	height: 100%;
+} 
+
+section#sectionA div#divA div.element img {	
+	border-radius: 2px;
+	width: 100%;
+	height: 100%;		
+}
+
+div.separation1 {
+	width: 100%;
+	height: 20px;
+	background-color: green;
+	margin: 6% 0% 0% 0%;
+}
+
+/* -------------------------------------------------------------------------------- */
+
+section#sectionB {			
+	margin: 0% 0% 0% 0%;
+	margin-top: 0%;
+	background: url(../img/lichfondo.jpg);
+	background-size: 100%;
+}
+
+section#sectionB div#aux {
+	width: 100%;
+	height: 100%;
+	background-color: none;
+}
+
+section#sectionB div#aux div.divMontura {
+	width: 60%;
+	height: 25%;
+	background-color: none;		
+	margin: 0% 5% 3% 20%;		
+}
+
+section#sectionB div#aux div.divMontura article.classart {
+	width: 100%;
+	height: 100%;
+	background-color: none;			
+	padding: 1% 0% 0% 0%;		
+}
+
+section#sectionB div#aux div.divMontura article.classart h3 {
+	text-align: center;
+	font-size: 165%;
+	color: white;
+	font-family: 'Alegreya SC', serif;
+}
+
+section#sectionB div#aux div.divMontura article.classart img.imgSpan {	
+	width: 40%;
+	height: 40%;
+	padding: 0.5% 0% 0% 3%;
+	border-radius: 15%;
+}
+ 
+section#sectionB div#aux div.divMontura article.classart 
+div#forSpan {
+	width: 44%;		
+	float: right;	
+}
+
+
+section#sectionB div#aux div.divMontura article.classart 
+div#forSpan span.spaneado {	
+	text-align: justify;
+	margin: 5% -4% 0% 0%;
+	color: white;
+	font-size: 15px;
+	display: block;
+}
+
+div.separation2 {
+	width: 100%;
+	height: 20px;
+	background-color: green;
+	margin: 0% 0% 0% 0%;
+	border: 0%;
+	padding: 0%;
+}
+
+footer {
+	width: 100%;
+	height: 7%;
+	margin: 0%;
+	padding: 0%;
+	border: 0%;
+	background: rgba(42,131,209,1);
+	background: -moz-linear-gradient(left, rgba(42,131,209,1) 0%, rgba(42,131,209,1) 47%, rgba(38,98,158,1) 56%, rgba(38,98,158,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(42,131,209,1)), color-stop(47%, rgba(42,131,209,1)), color-stop(56%, rgba(38,98,158,1)), color-stop(100%, rgba(38,98,158,1)));
+	background: -webkit-linear-gradient(left, rgba(42,131,209,1) 0%, rgba(42,131,209,1) 47%, rgba(38,98,158,1) 56%, rgba(38,98,158,1) 100%);
+	background: -o-linear-gradient(left, rgba(42,131,209,1) 0%, rgba(42,131,209,1) 47%, rgba(38,98,158,1) 56%, rgba(38,98,158,1) 100%);
+	background: -ms-linear-gradient(left, rgba(42,131,209,1) 0%, rgba(42,131,209,1) 47%, rgba(38,98,158,1) 56%, rgba(38,98,158,1) 100%);
+	background: linear-gradient(to right, rgba(42,131,209,1) 0%, rgba(42,131,209,1) 47%, rgba(38,98,158,1) 56%, rgba(38,98,158,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a83d1', endColorstr='#26629e', GradientType=1 );
+}
+
+footer p#foort {
+	padding: 2% 0% 0% 0%;
+	text-align: center;
+	font-family: arial;
+}

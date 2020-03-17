@@ -1,0 +1,121 @@
+/*  	CSS 	*/ 
+
+body {	
+	width: 100%;
+	height: 100%;
+	background-color: #000000; 	/*4c5c76*/
+}
+
+header {
+	list-style: none;
+	background-color: #000000;
+	height: 15%;	
+}
+header figure img#img {
+	float: left;
+	width: 28%;
+	height:	15%;
+	background-color: none;
+	border-color: black;	
+}
+
+header h1 {
+	font-family: 'Cinzel', serif;
+	font-size: 250%;
+	margin: 1% 0% 0% 6%;
+	float: left;		
+	color: #ebd430;	
+}
+
+header audio {
+	float: right;
+	width: 10%;
+	height: 5%;
+	padding: 3% 3% 0% 0%;
+}
+
+header nav table td a#a, header nav table td a#b, header nav table td a#c, header nav table td a#d, header nav table td a#e {
+	text-align: center;
+	padding: 0px 78px 0% 78px;
+	margin: 0%;
+	text-decoration: none;
+}
+
+header nav table {
+	padding: 0% 1% 0% 8%;	
+	margin: 0% 10% 5% 0%;	
+}
+
+header nav table td a#a {	
+	color: #708744;
+}
+
+header nav table td a#b {	
+	color: #18678B;
+	margin: 0% 2% 0% 2%;
+}
+
+header nav table td a#c {	
+	color: #8A0808;
+}
+
+header nav table td a#d {	
+	color: green;
+}
+
+header nav table td a#e {	
+	color: white;
+}
+
+section {	
+	background-color: #000000;		
+}
+
+section div#part{	
+	background-color: none;
+	width: 100%;
+	height: 75%;		
+}
+
+section div#slider {
+	background-color: none;
+	width: 40%;
+	height: 110%;	
+	border-radius: 7%;		
+}
+
+section div#slider div.element img {	
+	width: 100%;
+	height: 45%;
+	padding: 0% 0% 0% 15%;		
+}
+
+div#s {	
+	float: right;
+	padding: 0% 3% 0% 5%;
+	margin-top: -20%;
+	text-align: justify;
+	color: white;
+}
+
+footer p#p1 {
+	float: left;
+	margin-left: 3%;
+	color: white;	
+	margin-top: 6%;
+}
+
+footer p#p2 {
+	float: right;
+	margin-right: 3%;
+	color: white;
+	margin-top: 6%;	
+}
+
+footer {
+	width: 100%;
+	height: 0%;
+	background-color: #000000;	
+}
+
+/*		Responsive Design para adpatarese a la pantalla */
